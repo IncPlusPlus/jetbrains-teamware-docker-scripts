@@ -1,3 +1,4 @@
 # Hide IntelliJ
 .idea
 venv
+config.ini
