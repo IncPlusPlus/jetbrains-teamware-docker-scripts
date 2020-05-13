@@ -52,6 +52,7 @@ def exec_ssh(ssh_client: paramiko.SSHClient, command: str):
 
 def build_docker_run_cmd(conf: configparser.ConfigParser, product_name, ):
     run_cmd = f'docker run -d --restart always --name {config[product][name_key]} '
+    # Because TeamCity is so rebellious, it uses a data dir with a different name. Almost forgot about that
     run_cmd += f'-v {conf[product][data_dir_key]}:' \
                f'{"/data/teamcity_server/datadir" if product == teamcity_key else f"/opt/{product}/data"} '
     run_cmd += f'-v {conf[product][logs_dir_key]}:/opt/{product}/logs '
