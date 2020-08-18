@@ -17,12 +17,14 @@ backups_dir_key = 'backups_dir'
 name_key = 'name'
 port_key = 'port'
 version_key = 'version'
-# If you want to use this for yourself and you're not using all of these products, just remove some from this check
+
+# If you want to use this script for yourself but you're not using all of these products,
+# remove the products you aren't using from this list.
 product_names = [hub_key, youtrack_key, upsource_key, teamcity_key]
 
 
 def ensure_config_valid(conf: configparser.ConfigParser):
-    print("Validating config. THIS ONLY CHECKS FOR THINGS THAT ARE BLANK. CHECK YOUR CONFIG YOURSELF")
+    print("Validating config. THIS ONLY CHECKS FOR THINGS THAT ARE BLANK. YOU SHOULD CHECK YOUR CONFIG YOURSELF")
     if [server_key] + product_names != conf.sections():
         raise ValueError(
             "Your config.ini has some unknown or missing sections. Check config_example.ini for an example "
@@ -82,6 +84,7 @@ print("Preparing password prompt. If you aren't prompted for your password, try 
       "form of shell or TTY. The prompt won't appear in PyCharm's runner but will in the debugger.")
 password = getpass.getpass('Sudo password: ')
 print('\n')  # Make some room
+# Prevents the password leaking into the history since it's included in the next command
 ssh.exec_command("export HISTIGNORE='*sudo -S*'")
 print('Listing running docker containers')
 exec_ssh(ssh, f'echo {password} | sudo -S -k docker ps -a')
