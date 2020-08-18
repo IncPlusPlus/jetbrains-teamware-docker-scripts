@@ -16,7 +16,7 @@ At the moment, there is only one Python script and one shell script. The shell s
 ## Contents
 Below is an explanation of what each script does and how to use them.
 
-### [Recreate all containers](Recreate all containers.py)
+### [Recreate all containers](recreate_all_containers.py)
 This script will shut down, remove, and recreate all of your teamware containers according to the specifications you outlined in your config file (see the Usage section below).
 
 There are a few use cases for this script. I primarily use it to update the image that my containers run. You may also be able to revive a bugged-out container if something went haywire (although the issue may persist if it is caused by any configuration as the most configuration is persisted _outside_ the container).
