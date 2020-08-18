@@ -6,10 +6,10 @@ At the moment, there is only one Python script and one shell script. The shell s
 ## Supported Tools
 | Tool     | Supported          | Product page                                                                        | Docker image                                                                                        |
 |----------|--------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Hub      | :heavy_check_mark: | [<img src="images/hub.svg" width="50" height="50"/>](https://www.jetbrains.com/hub/)           | [<img src="images/the_cube.png" width="50" height="50"/>](https://hub.docker.com/r/jetbrains/hub)              |
-| TeamCity | :heavy_check_mark: | [<img src="images/teamcity.svg" width="50" height="50"/>](https://www.jetbrains.com/teamcity/) | [<img src="images/the_cube.png" width="50" height="50"/>](https://hub.docker.com/r/jetbrains/teamcity-server/) |
-| Upsource | :heavy_check_mark: | [<img src="images/upsource.svg" width="50" height="50"/>](https://www.jetbrains.com/upsource/) | [<img src="images/the_cube.png" width="50" height="50"/>](https://hub.docker.com/r/jetbrains/upsource/)        |
-| YouTrack | :heavy_check_mark: | [<img src="images/youtrack.svg" width="50" height="50"/>](https://www.jetbrains.com/youtrack/) | [<img src="images/the_cube.png" width="50" height="50"/>](https://hub.docker.com/r/jetbrains/youtrack/)        |
+| Hub      | :heavy_check_mark: | [<img src="images/hub.svg" width="50" height="50"/>](https://www.jetbrains.com/hub/)           | [<img src="images/the_cube.png" width="47" height="52"/>](https://hub.docker.com/r/jetbrains/hub)              |
+| TeamCity | :heavy_check_mark: | [<img src="images/teamcity.svg" width="50" height="50"/>](https://www.jetbrains.com/teamcity/) | [<img src="images/the_cube.png" width="47" height="52"/>](https://hub.docker.com/r/jetbrains/teamcity-server/) |
+| Upsource | :heavy_check_mark: | [<img src="images/upsource.svg" width="50" height="50"/>](https://www.jetbrains.com/upsource/) | [<img src="images/the_cube.png" width="47" height="52"/>](https://hub.docker.com/r/jetbrains/upsource/)        |
+| YouTrack | :heavy_check_mark: | [<img src="images/youtrack.svg" width="50" height="50"/>](https://www.jetbrains.com/youtrack/) | [<img src="images/the_cube.png" width="47" height="52"/>](https://hub.docker.com/r/jetbrains/youtrack/)        |
 | Datalore | :x:                | [<img src="images/datalore.svg" width="50" height="50"/>](https://datalore.jetbrains.com/)     | N/A                                                                                                 |
 | Space    | :x:                | [<img src="images/space.svg" width="50" height="50"/>](https://www.jetbrains.com/space/)       | N/A                                                                                                 |
 
