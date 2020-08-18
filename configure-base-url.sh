@@ -1,4 +1,6 @@
-# This is what I used to configure the base URL in my containers
+# This is what I used to configure the base URL in my containers.
+# This script only needs to be run once. After you upgrade your various containers, you do not need to run this again
+# because your configuration for the base URL is stored in the configuration directory which lies outside of the container.
 
 docker run --rm -it \
 -v /opt/jetbrains/youtrack/conf:/opt/youtrack/conf \
