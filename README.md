@@ -40,3 +40,6 @@ Breathe out. You're done with the initial steps. Most of the `config.ini` option
 
 #### Running
 Go ahead and run the script. It will ask for your password and then it will tear down and rebuild all of your containers.
+
+### [Configure base URL](configure-base-url.sh)
+Description coming soon. This will also be changed to Python soon.
