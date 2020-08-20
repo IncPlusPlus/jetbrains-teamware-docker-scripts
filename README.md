@@ -22,7 +22,7 @@ This script will shut down, remove, and recreate all of your teamware containers
 There are a few use cases for this script. I primarily use it to update the image that my containers run. You may also be able to revive a bugged-out container if something went haywire (although the issue may persist if it is caused by any configuration as the most configuration is persisted _outside_ the container).
 
 #### Usage
-Create a copy of [config_example.ini](config_example.ini) and name it `config.ini`. You should keep this copy in the same directory as the example config. If you are not using one or more of the JetBrains products, you can simply remove them from the `product_names` list.
+Create a copy of [config_example.ini](config_example.ini) and name it `config.ini`. You should keep this copy in the same directory as the example config. If you are not using one or more of the JetBrains products, you can simply remove them from the `product_names` list and comment the lines involving that product in `config.ini`.
 
 #### Configuring `config.ini`
 Most of the config has been completed for you. However, there are a few things you _must_ do before running the script. This may look intimidating but this only needs to be done _once_ and then it's smooth sailing.
