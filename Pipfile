@@ -9,7 +9,7 @@ verify_ssl = true
 paramiko = "==2.7.1"
 six = "==1.15.0"
 pynacl = "==1.4.0"
-cryptography = "==3.0"
+cryptography = "==3.2"
 cffi = "==1.14.2"
 bcrypt = "==3.2.0"
 
